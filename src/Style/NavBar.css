@@ -1,3 +1,21 @@
-.hello{
-    color: red;
+
+.dashboard{
+    margin: 10px;
+    padding: 10px;
+    background-color: #343a40;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+    color: white;
+}
+
+.navcont{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    font-weight:500;
+    font-size: medium;
 }

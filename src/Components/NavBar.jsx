@@ -2,8 +2,14 @@ import "../Style/NavBar.css"
 
 function NavBar(){
     return(
-        <div>
-            <h1 className="hello">Helloooooooo</h1>
+        <div className="dashboard">
+            <h1>Dashboard</h1>
+            <div>
+                <ul className="navcont">
+                    <li>Product List</li>
+                    <li>Add Product</li>
+                </ul>
+            </div>
         </div>
     )
 }
