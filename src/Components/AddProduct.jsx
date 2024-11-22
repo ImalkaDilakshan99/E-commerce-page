@@ -1,3 +1,5 @@
+import "../Style/AddProduct.css"
+
 function AddProduct(){
     return(
         <form action="">
@@ -9,7 +11,9 @@ function AddProduct(){
                 <input type="category" id="category" name="Category"/>
                 <label htmlFor="prize">Prize</label>
                 <input type="number" id="prize" name="prize"/>
-                <button>Register</button>
+                <label htmlFor="productimg">Add Images for Product</label>
+                <input type="file" id="productimg" name="productimg"/>
+                <button>ADD</button>
             </fieldset>
         </form>
     )

@@ -1,0 +1,39 @@
+fieldset {
+    border: 2px solid #323232;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 8px; 
+  }
+
+  legend {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #282828;
+  }
+
+  label {
+    display: block;
+    margin-bottom: 8px; 
+    font-weight: bold;
+  }
+
+  input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 12px;
+    border: 1px solid #ddd; 
+    border-radius: 4px; 
+  }
+
+  button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  button:hover {
+    background-color: #45a049;
+  }
