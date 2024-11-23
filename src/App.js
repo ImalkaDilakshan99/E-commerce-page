@@ -12,12 +12,15 @@ function App() {
     <div className="App">
       <Router>
         <NavBar></NavBar>
-        {/* <Routes>
+        <WelcomeBar></WelcomeBar>
+        <ProductTable></ProductTable>
+        <AddProduct></AddProduct>
+        <Routes>
           <Route path="/" element={<ProductTable />}/>
           <Route path="/AddProduct" element={<AddProduct/>}/>
           <Route path="/view-product/:id" element={<ViewProduct />} />
-        </Routes> */}
-        <ViewProduct></ViewProduct>
+        </Routes>
+        
       </Router>
     </div>
   );
