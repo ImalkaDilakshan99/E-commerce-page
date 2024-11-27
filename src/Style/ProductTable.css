@@ -60,3 +60,7 @@
   .remove{
     background-color: red;
   }
+
+  .view:hover{
+    color: red;
+  }

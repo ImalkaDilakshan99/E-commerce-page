@@ -1,5 +1,5 @@
-import logo from "./logo.svg";
-import { BrowserRouter as Router, Routes, Route, Link  } from "react-router-dom";
+import React from "react";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import "./App.css";
 import NavBar from "./Components/NavBar";
 import WelcomeBar from "./Components/WelcomeBar";
@@ -11,16 +11,14 @@ function App() {
   return (
     <div className="App">
       <Router>
-        <NavBar></NavBar>
-        <WelcomeBar></WelcomeBar>
-        <ProductTable></ProductTable>
-        <AddProduct></AddProduct>
+        
+        <NavBar />
+
         <Routes>
-          <Route path="/" element={<ProductTable />}/>
-          <Route path="/AddProduct" element={<AddProduct/>}/>
+          <Route path="/" element={<ProductTable />} />
+          <Route path="/AddProduct" element={<AddProduct />} />
           <Route path="/view-product/:id" element={<ViewProduct />} />
         </Routes>
-        
       </Router>
     </div>
   );
