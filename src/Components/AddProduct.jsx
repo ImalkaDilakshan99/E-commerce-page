@@ -9,6 +9,8 @@ function AddProduct() {
         productimg: null,  // Add productimg to state
     });
 
+    
+
     const handleChange = (e) => {
         const { name, value } = e.target;
         setProduct({
@@ -39,6 +41,7 @@ function AddProduct() {
             return;
         }
 
+        
         fetch('http://localhost:5000/products', {
             method: 'POST',
             body: formData,  // Send FormData directly
